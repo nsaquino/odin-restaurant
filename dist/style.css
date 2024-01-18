@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(./food.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body * {
+}
+
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    background-color: lightyellow;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.tab {
+    padding: 15px 40px;
+    border-radius: 20px 20px 0 0;
+    border-style: ridge;
+    border-color: rgb(160, 160, 160);
+    border-bottom: none;
+    background-color: rgb(255, 255, 59);
+}
+
+#content {
+    border-radius: 20px;
+    border-style: double;
+    border-width: 6px;
+    flex-grow: 1;
+    align-self: center;
+    width: clamp(250px, 60%, 1600px);
+    background-color: rgb(202, 202, 140);
+} 
+
+footer {
+    margin-top: 20px;
+    background-color: white;
+}
+
+footer > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
